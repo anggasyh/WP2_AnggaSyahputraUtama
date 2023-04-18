@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Tampil Data Mahasiswa</title>
+    <title>Tampil Data Siswa</title>
 </head>
 
 <style>
@@ -21,7 +21,7 @@
         <table>
             <tr>
                 <th colspan="3">
-                    Tampil Data Mahasiswa
+                    Tampil Data Siswa
                 </th>
             </tr>
 
@@ -32,7 +32,7 @@
             </tr>
 
             <tr>
-                <th>Nama Mahasiswa</th>
+                <th>Nama Siswa</th>
                 <th>:</th>
                 <td>
                     <?= $nama; ?>
@@ -40,10 +40,10 @@
             </tr>
             
             <tr>
-                <th>Nomor Induk Mahasiswa</th>
+                <th>Nomor Induk Siswa</th>
                 <th>:</th>
                 <td>
-                    <?= $nim; ?>
+                    <?= $nis; ?>
                 </td>
             </tr>
             
@@ -96,7 +96,7 @@
             </tr>
             <tr>
                 <td colspan="3" align="center">
-                    <a href="<?= base_url('mahasiswa'); ?>">Kembali</a>
+                    <a href="<?= base_url('siswa'); ?>">Kembali</a>
                 </td>
             </tr>
         </table>

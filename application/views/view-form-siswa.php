@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Form Input Data Mahasiswa</title>
+    <title>Form Input Data Siswa</title>
 </head>
 <style>
     fieldset{
@@ -17,11 +17,11 @@
 <body>
     <center>
         <fieldset>
-        <form action= "<?= base_url('mahasiswa/cetak'); ?>" method="post">
+        <form action= "<?= base_url('siswa/cetak'); ?>" method="post">
             <table>
                 <tr>
                     <th colspan="3">
-                        Form Input Data Mahasiswa
+                        Form Input Data Siswa
                     </th>
                 </tr>
                 <tr>
@@ -37,10 +37,10 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Nomor Induk Mahasiswa</th>
+                    <th>Nomor Induk Siswa</th>
                     <td>:</td>
                     <td>
-                        <input type="number" name="nim" id="nim">
+                        <input type="number" name="nis" id="nis">
                     </td>
                 </tr>
                 <tr>
