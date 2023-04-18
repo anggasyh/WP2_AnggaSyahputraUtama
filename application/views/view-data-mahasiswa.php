@@ -4,8 +4,20 @@
     <title>Tampil Data Mahasiswa</title>
 </head>
 
+<style>
+    fieldset{
+        width: 30%;
+        margin: 40px auto;
+        border-radius: 10px;
+    }
+    select{
+        width: 100%;
+    }
+</style>
+
 <body>
     <center>
+        <fieldset>
         <table>
             <tr>
                 <th colspan="3">
@@ -28,8 +40,8 @@
             </tr>
             
             <tr>
-                <td>NIM</td>
-                <td>:</td>
+                <th>Nomor Induk Mahasiswa</th>
+                <th>:</th>
                 <td>
                     <?= $nim; ?>
                 </td>
@@ -76,8 +88,8 @@
             </tr>
             
             <tr>
-                <td>Agama</td>
-                <td>:</td>
+                <th>Agama</th>
+                <th>:</th>
                 <td>
                     <?= $agama; ?>
                 </td>
@@ -88,6 +100,7 @@
                 </td>
             </tr>
         </table>
+        </fieldset>
     </center>
 </body>
 

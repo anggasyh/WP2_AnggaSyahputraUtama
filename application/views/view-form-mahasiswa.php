@@ -3,9 +3,20 @@
 <head>
     <title>Form Input Data Mahasiswa</title>
 </head>
+<style>
+    fieldset{
+        width: 30%;
+        margin: 40px auto;
+        border-radius: 10px;
+    }
+    select{
+        width: 100%;
+    }
+</style>
 
 <body>
     <center>
+        <fieldset>
         <form action= "<?= base_url('mahasiswa/cetak'); ?>" method="post">
             <table>
                 <tr>
@@ -26,7 +37,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>NIM</th>
+                    <th>Nomor Induk Mahasiswa</th>
                     <td>:</td>
                     <td>
                         <input type="number" name="nim" id="nim">
@@ -93,6 +104,7 @@
                 </tr>
             </table>
         </form>
+        </fieldset>
     </center>
 </body>
 
